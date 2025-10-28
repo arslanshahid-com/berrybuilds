@@ -2,13 +2,13 @@ import Image from "next/image";
 import cardImage from "/public/card-image.jpg";
 import Tag from "./Tag";
 
-function ProjectCard() {
+function ProjectCard({ project }) {
   return (
     <>
       <div className="bg-gradient-to-b from-[#1a082e] to-black rounded-2xl border border-gray-800 shadow-lg">
         <div className="relative h-40 bg-black">
           <Image
-            src={cardImage}
+            src={project?.image}
             alt="Image Name"
             width={200}
             height={200}
@@ -17,24 +17,24 @@ function ProjectCard() {
           />
 
           <span className="absolute top-3 right-3 bg-gradient-to-r from-purple-500 to-pink-400 text-white text-sm font-medium px-3 py-1 rounded-full">
-            Sports
+            {project?.category}
           </span>
         </div>
 
         <div className="p-5">
           <h2 className="text-lg font-semibold text-white mb-2">
-            SnookerHub
+            {project?.title}
           </h2>
           <p className="text-gray-400 text-sm mb-4">
-            Full-Stack MERN Web Application - A modern web platform designed to
-            digitize and streamline snooker tournaments.
+            {project?.desc}
           </p>
 
           <div className="flex flex-wrap gap-2">
-            <Tag name={"React Js"}/>
-            <Tag name={"Node.js"}/>
-            <Tag name={"MongoDB"}/>
-            <Tag name={"+4"}/>
+            {
+              project.tag.map((data, index)=>(
+               <Tag key={index} name={data.name}/>
+              ))
+            }
           </div>
         </div>
       </div>

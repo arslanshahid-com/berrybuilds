@@ -1,0 +1,94 @@
+[
+  {
+    "image": "/card-image.jpg",
+    "title": "SnookerHub",
+    "category": "sports",
+    "desc": "Full-Stack MERN Web Application - A modern web platform designed to digitize and streamline snooker tournaments.",
+    "tag": [
+      { "name": "React Js" },
+      { "name": "Node Js" },
+      { "name": "MongoDB" },
+      { "name": "Express Js" }
+    ]
+  },
+  {
+    "image": "/card-image.jpg",
+    "title": "ShopEase",
+    "category": "ecommerce",
+    "desc": "E-commerce platform with product filtering, cart management, and admin dashboard.",
+    "tag": [
+      { "name": "Next Js" },
+      { "name": "Tailwind CSS" },
+      { "name": "Firebase" }
+    ]
+  },
+  {
+    "image": "/card-image.jpg",
+    "title": "SnookerHub",
+    "category": "sports",
+    "desc": "Full-Stack MERN Web Application - A modern web platform designed to digitize and streamline snooker tournaments.",
+    "tag": [
+      { "name": "React Js" },
+      { "name": "Node Js" },
+      { "name": "MongoDB" },
+      { "name": "Express Js" }
+    ]
+  },
+  {
+    "image": "/card-image.jpg",
+    "title": "ShopEase",
+    "category": "ecommerce",
+    "desc": "E-commerce platform with product filtering, cart management, and admin dashboard.",
+    "tag": [
+      { "name": "Next Js" },
+      { "name": "Tailwind CSS" },
+      { "name": "Firebase" }
+    ]
+  },
+  {
+    "image": "/card-image.jpg",
+    "title": "SnookerHub",
+    "category": "sports",
+    "desc": "Full-Stack MERN Web Application - A modern web platform designed to digitize and streamline snooker tournaments.",
+    "tag": [
+      { "name": "React Js" },
+      { "name": "Node Js" },
+      { "name": "MongoDB" },
+      { "name": "Express Js" }
+    ]
+  },
+  {
+    "image": "/card-image.jpg",
+    "title": "ShopEase",
+    "category": "ecommerce",
+    "desc": "E-commerce platform with product filtering, cart management, and admin dashboard.",
+    "tag": [
+      { "name": "Next Js" },
+      { "name": "Tailwind CSS" },
+      { "name": "Firebase" }
+    ]
+  },
+  {
+    "image": "/card-image.jpg",
+    "title": "SnookerHub",
+    "category": "sports",
+    "desc": "Full-Stack MERN Web Application - A modern web platform designed to digitize and streamline snooker tournaments.",
+    "tag": [
+      { "name": "React Js" },
+      { "name": "Node Js" },
+      { "name": "MongoDB" },
+      { "name": "Express Js" }
+    ]
+  },
+  {
+    "image": "/card-image.jpg",
+    "title": "ShopEase",
+    "category": "ecommerce",
+    "desc": "E-commerce platform with product filtering, cart management, and admin dashboard.",
+    "tag": [
+      { "name": "Next Js" },
+      { "name": "Tailwind CSS" },
+      { "name": "Firebase" }
+    ]
+  }
+]
