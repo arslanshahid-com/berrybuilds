@@ -1,5 +1,6 @@
 [
   {
+    "id": "1",
     "image": "/card-image.jpg",
     "title": "SnookerHub",
     "category": "sports",
@@ -12,6 +13,7 @@
     ]
   },
   {
+    "id": "2",
     "image": "/card-image.jpg",
     "title": "ShopEase",
     "category": "ecommerce",
@@ -23,6 +25,7 @@
     ]
   },
   {
+    "id": "3",
     "image": "/card-image.jpg",
     "title": "SnookerHub",
     "category": "sports",
@@ -35,6 +38,7 @@
     ]
   },
   {
+    "id": "4",
     "image": "/card-image.jpg",
     "title": "ShopEase",
     "category": "ecommerce",
@@ -46,6 +50,7 @@
     ]
   },
   {
+    "id": "5",
     "image": "/card-image.jpg",
     "title": "SnookerHub",
     "category": "sports",
@@ -58,6 +63,7 @@
     ]
   },
   {
+    "id": "6",
     "image": "/card-image.jpg",
     "title": "ShopEase",
     "category": "ecommerce",
@@ -69,6 +75,7 @@
     ]
   },
   {
+    "id": "7",
     "image": "/card-image.jpg",
     "title": "SnookerHub",
     "category": "sports",
@@ -81,6 +88,7 @@
     ]
   },
   {
+    "id": "8",
     "image": "/card-image.jpg",
     "title": "ShopEase",
     "category": "ecommerce",

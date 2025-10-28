@@ -1,0 +1,81 @@
+[
+  {
+    "id": "1",
+    "slug": "first-project",
+    "meta": "meta tag",
+    "project_url": "www.google.com",
+    "github_link": "https//:www.github.com/arsalanshahid",
+    "image": "/card-image.jpg",
+    "title": "SnookerHub",
+    "subtitle": "Digitize and streamline snooker tournaments",
+    "type": "Web Application",
+    "status": "Completed", 
+    "version": "1.0.0",
+    "date_created": "2025-10-10",
+    "last_updated": "2025-10-20",
+    "category": "sports",
+    "desc": "Full-Stack MERN Web Application - A modern web platform designed to digitize and streamline snooker tournaments.",
+    "rating": [
+        {"key": "1"},
+        {"key": "2"},
+        {"key": "3"},
+        {"key": "4"},
+        {"key": "5"}
+    ],
+    "TechStack": [
+      { "name": "React Js" },
+      { "name": "Node Js" },
+      { "name": "MongoDB" },
+      { "name": "Express Js" }
+    ],
+    "tools": [
+      { "name": "Postman" },
+      { "name": "GitHub" },
+      { "name": "Figma" }
+    ],
+    "screenshot": [
+      { "image": "/image1.jpg" },
+      { "image": "/image1.jpg" },
+      { "image": "/image1.jpg" },
+      { "image": "/image1.jpg" },
+      { "image": "/image1.jpg" }
+    ],
+    "video_url": "https:www.video_url.com",
+     "demo_credentials": {
+      "username": "admin",
+      "password": "demo_pass123"
+    },
+    "keyFeatures": [
+        {
+            "icon": "CodeXml",
+            "title": "Club and table management",
+            "desc": "Club can manage reserve table, schedule pairing manually. Lorem ipsum dolor sit amet."
+        },
+        {
+            "icon": "Zap",
+            "title": "Online Booking System",
+            "desc": "Users can reseve table in real time. Lorem ipsum dolor sit amet,"
+        }
+    ],
+    "user": {
+        "name": "arslan shahid",
+        "avator": "A",
+        "designation": "Full Stack Developer",
+        "linkdin": "https//:www.linkdin.com/arslanshahid",
+        "phone": "+92-332-9993336"
+    },
+    "testimonials": [
+      {
+        "author": "Ahmed Raza",
+        "position": "Club Owner",
+        "message": "SnookerHub completely changed how we manage tournaments!"
+      },
+      {
+        "author": "Rizwan Malik",
+        "position": "Club User",
+        "message": "Some feedback from the users"
+      }
+    ],
+    "repository_visibility": "public"
+  }
+]
