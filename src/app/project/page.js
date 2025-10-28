@@ -1,5 +1,6 @@
 import FeaturedCard from "../components/FeaturedCard";
 import ImageCarousel from "../components/ImageCarousel";
+import featuredData from "../data/featuredData.json";
 import Tag from "../components/Tag";
 import {
   CodeXml,
@@ -10,6 +11,16 @@ import {
   LayoutDashboard,
   TabletSmartphone,
 } from "lucide-react";
+
+const iconMap = {
+  CodeXml: <CodeXml color="blue" />,
+  Zap: <Zap color="blue" />,
+  Key: <Key color="blue" />,
+  CircleCheck: <CircleCheck color="blue" />,
+  Users: <Users color="blue" />,
+  LayoutDashboard: <LayoutDashboard color="blue" />,
+  TabletSmartphone: <TabletSmartphone color="blue" />,
+};
 function Project() {
   return (
     <div className="bg-black text-white">
@@ -29,55 +40,14 @@ function Project() {
             </p>
             <h2 className="text-3xl mt-10 font-bold mb-5">Key Features</h2>
             <div className="grid grid-cols-2 gap-5">
-              <FeaturedCard
-                icon={<CodeXml color="blue" />}
-                title={"Club and table management"}
-                desc={
-                  "Club can manage reserve table, schedulle pairing by manually Lorem ipsum dolor sit amet,"
-                }
-              />
-              <FeaturedCard
-                icon={<Zap color="blue" />}
-                title={"Online Booking System"}
-                desc={
-                  "Users can reseve table in real time. Lorem ipsum dolor sit amet, "
-                }
-              />
-              <FeaturedCard
-                icon={<Key color="blue" />}
-                title={"User Account and authentication"}
-                desc={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-                }
-              />
-              <FeaturedCard
-                icon={<CircleCheck color="blue" />}
-                title={"Payment Integration"}
-                desc={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-                }
-              />
-              <FeaturedCard
-                icon={<Users color="blue" />}
-                title={"Contact and Whatsapp Support"}
-                desc={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-                }
-              />
-              <FeaturedCard
-                icon={<LayoutDashboard color="blue" />}
-                title={"Admin Dashboard"}
-                desc={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-                }
-              />
-              <FeaturedCard
-                icon={<TabletSmartphone color="blue" />}
-                title={"Responsive Design"}
-                desc={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-                }
-              />
+              {featuredData.map((item, index) => (
+                <FeaturedCard
+                  key={index}
+                  icon={iconMap[item.icon]}
+                  title={item.title}
+                  desc={item.desc}
+                />
+              ))}
             </div>
           </div>
           <div className="sidebar">sidebar</div>
