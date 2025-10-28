@@ -18,17 +18,6 @@ export default function Home() {
               <ProjectCard key={index} project={project}/>
             ))
           }
-
-          
-          
-          {/* <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard /> */}
         </div>
       </div>
     </div>
