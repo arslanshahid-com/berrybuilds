@@ -1,6 +1,7 @@
 import ProjectCard from "./components/ProjectCard";
 import featuredProductData from "./data/featuredProductData.json";
 
+
 export default function Home() {
   return (
     <div className="bg-black py-4 text-white ">

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import berryLogo from "/public/main-logo.png";
 import themelogo from "/public/theme-logo.png";
+import Link from "next/link";
 function Header() {
   return (
     <>
@@ -8,13 +9,15 @@ function Header() {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between  gap-10">
             <div className="logo">
-              <Image
-                src={berryLogo}
-                alt="BerryBuilds Logo"
-                width={200}
-                height={200}
-                priority
-              />
+              <Link href="/">
+                <Image
+                  src={berryLogo}
+                  alt="BerryBuilds Logo"
+                  width={200}
+                  height={200}
+                  priority
+                />
+              </Link>
             </div>
             <div className="menu">
               <ul className="flex gap-10 text-gray-300">

@@ -1,10 +1,10 @@
-import FeaturedCard from "../components/FeaturedCard";
-import ImageCarousel from "../components/ImageCarousel";
-import featuredData from "../data/featuredData.json";
-import productDetailData from "../data/productDetail.json";
+import FeaturedCard from "../../components/FeaturedCard";
+import ImageCarousel from "../../components/ImageCarousel";
+// import featuredData from "../data/featuredData.json";
+import productDetailData from "../../data/productDetail.json";
 import Image from "next/image";
 import profilePic from "/public/profile_pic.png";
-import Tag from "../components/Tag";
+import Tag from "../../components/Tag";
 import {
   CodeXml,
   Zap,
@@ -14,7 +14,7 @@ import {
   LayoutDashboard,
   TabletSmartphone,
 } from "lucide-react";
-import TechStack from "../components/TechStack";
+import TechStack from "../../components/TechStack";
 
 const iconMap = {
   CodeXml: <CodeXml color="blue" />,
@@ -27,9 +27,11 @@ const iconMap = {
 };
 
 
-function Project() {
+function Project({params}) {
   return (
     <div className="bg-black text-white">
+   
+      
       <div className="container mx-auto px-4">
         <ImageCarousel />
         <div className="grid grid-cols-[1000px_1fr] gap-4 pt-30 pb-20">
